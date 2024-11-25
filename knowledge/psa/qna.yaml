@@ -121,6 +121,6 @@ document_outline: |
   Information about PSA inhouse system
 document:
   repo: https://github.com/kahlai/taxonomy.git
-  commit: bd9ddbffd07a26aa7a07edc754eedae9c4f44af3
+  commit: afbe8fb26b2a7d2b7c27208ef0aa2eac5afbc10c
   patterns:
     - *
