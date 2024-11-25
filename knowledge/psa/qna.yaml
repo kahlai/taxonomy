@@ -1,0 +1,126 @@
+version: 3
+domain: psa
+created_by: kahlai
+seed_examples:
+  - context: |
+      PSA Intelligent Warehouse Exchange (iWX)
+      From port to warehouses and depots, PSA has been facilitating real time data and information
+      exchange in the various nodes with our very own suite of intelligent port and logistics ecosystem
+      digital products. In the warehouse node, the PSA iWX provides a one-stop data exchange platform
+      for critical port and warehouse information, through the integration of essential data points such as
+      Warehouse Management System (WMS) solutions, IoT sensors and video cameras.
+      The iWX improves warehouse operations by providing real-time insights into warehouse traffic status
+      and asset utilisation, greatly improving productivity.
+    questions_and_answers:
+      - question: |
+          What is iWX
+        answer: |
+          iWX is PSA Intelligent Warehouse Exchange
+      - question: |
+          What does iWX provide?
+        answer: |
+          iWX provides a one-stop data exchange platform for critical port and warehouse information
+      - question: |
+          What is the benefit of iWX?
+        answer: |
+          The iWX improves warehouse operations by providing real-time insights into warehouse traffic status
+          and asset utilisation, greatly improving productivity.
+  - context: |
+      Dangerous Goods (DG) Warehouse Operations
+      Our DG warehouse is meticulously designed to safely and efficiently handle hazardous cargoes
+      while maintaining high operational standards and safeguarding both people and property. Adhering
+      to strict regulatory standards, the facility is equipped with specialised storage areas and containment
+      systems to manage various types of dangerous goods, including flammable, corrosive and toxic
+      substances.
+      Efficient handling and storage of dangerous goods are facilitated by dedicated zones and
+      segregation protocols, which prevent cross-contamination and minimise risks. The warehouse
+      features advanced safety systems, including automated fire suppression, leak detection and
+      ventilation controls, ensuring a secure environment for both staff and stored goods.
+    questions_and_answers:
+      - question: |
+          What is DGWO
+        answer: |
+          DGWO is Dangerous Good
+      - question: |
+          What is inside the Dangerous Goods (DG) warehouse
+        answer: |
+          The warehouse features advanced safety systems, including automated fire suppression, leak detection and
+          ventilation controls, ensuring a secure environment for both staff and stored goods.
+      - question: |
+          What is the objective of having a Dangarous Goods (DG) warehouse
+        answer: |
+          DG warehouse is meticulously designed to safely and efficiently handle hazardous cargoes
+          while maintaining high operational standards and safeguarding both people and property.
+  - context: |
+      Regional Distribution Centre (RDC) Operations
+      The RDC warehouse is designed to meet the demands of modern distribution networks, capable of
+      handling high-volume throughput and optimising space utilisation.
+      Equipped with automated sorting systems, real-time inventory tracking and robotic picking solutions,
+      the RDC will offer rapid order fulfilment and efficient inventory management. These technologies
+      seamlessly integrate with supply chain operations by minimising lead times, ensuring that goods are
+      moved swiftly from freight to storage to last mile, while maintaining high service levels and ensuring
+      rapid distribution to regional markets.
+    questions_and_answers:
+      - question:
+          What is RDC?
+        answer: |
+          RDC stand for Regional Distribution Center
+      - question: |
+          What is RDC for?
+        answer: |
+          The RDC warehouse is designed to meet the demands of modern distribution networks, capable of
+          handling high-volume throughput and optimising space utilisation.
+      - question: |
+          What is included in RDC
+        answer: |
+          RDC is equipped with automated sorting systems, real-time inventory tracking and robotic picking solutions.
+  - context: |
+      Container Freight Station (CFS) Warehouse
+      The CFS warehouse is designed to streamline multi-country consolidation and deconsolidation,
+      enabling fast cargo handling and efficient containerisation.
+      With dedicated areas for container and lorry operations, advanced traffic management systems,
+      support for a wide range of cargo types and real-time tracking, the PSCH will boast smoother
+      workflows that optimise cargo movement, ensuring accuracy and improved coordination between
+      shipments.
+    questions_and_answers:
+      - question: |
+          What is CFS?
+        answer: |
+          CFS stand for Container Freight Station
+      - question: |
+          What is PSCH?
+        answer: |
+          PSCH stand for PSA Supply Chain Hub
+      - question: |
+          What is the purpose of having a CFS?
+        answer: |
+          The CFS warehouse is designed to streamline multi-country consolidation and deconsolidation,
+          enabling fast cargo handling and efficient containerisation.
+  - context: |
+      Automated Storage and Retrieval System (ASRS)
+      The ASRS system boasts a size of over 100,000 square feet in footprint and 40 meters in height. It
+      efficiently manages the vertical and horizontal transport of pallets between storage and dispatch
+      zones.
+      Operating 24/7, the ASRS ensures seamless movement of goods with high throughputs and
+      accuracy, increases handling efficiency within supply chain flow and ensures maximum productivity
+      while maintaining a minimal environmental footprint.
+    questions_and_answers:
+      - question: |
+          What is ASRS
+        answer: |
+          ASRS stand for Automated Storage and Retrieval System.
+      - question: |
+          What is the size of ASRS
+        answer: |
+          The ASRS system boasts a size of over 100,000 square feet in footprint and 40 meters in height
+      - question: |
+          Can ASRS work 24/7
+        answer: |
+          Yes.
+document_outline: |
+  Information about PSA inhouse system
+document:
+  repo: https://github.com/kahlai/taxonomy.git
+  commit: bd9ddbffd07a26aa7a07edc754eedae9c4f44af3
+  patterns:
+    - *
